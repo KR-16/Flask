@@ -1,0 +1,28 @@
+input[type = text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type = submit], select{
+    width: 100%;
+    background-color: rgb(238, 137, 13);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /*cursor tells the different types of mouse pointers*/
+}
+
+div {
+    border-radius: 5px;
+    background-color: tomato;
+    padding: 20px;
+}
