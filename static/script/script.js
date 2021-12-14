@@ -1,1 +1,1 @@
-
+alert("Trying to reload data will be lost!!")
