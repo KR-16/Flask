@@ -1,0 +1,23 @@
+<html>
+
+<title>
+    FINAL RESULTS
+</title>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename = 'css/style.css') }}">
+</head>
+<h1>FINAL RESULT</h1><br><br>
+<body>
+    <table border = 5>
+        {% for key,value in result.items() %}
+        <tr>
+            {#We created a table row and now creating a table column#}
+            <th>{{ key }}</th>
+            <th>{{ value }}</th>
+        </tr>
+        {% endfor %}
+    </table>
+    
+</body>
+
+</html>

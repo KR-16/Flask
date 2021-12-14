@@ -1,0 +1,25 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                RESULT CHECKER
+            </title>
+            <head>
+                <link rel="stylesheet" href="{{ url_for('static',filename = 'css/style.css') }}">
+                <script type = "text/javascript" src = "{{ url_for('static',filename = 'script/script.js') }}">
+                </script>
+                
+            </head>
+            
+            <h1>ENTER YOUR SCORES</h1><br><br>
+            <form action = "/submit" method = "post">
+                <label for = "Science">SCIENCE</label><br><br>
+                <input type = "text" id = "science" name = "science" value = "0"><br><br>
+                <label for = "Mathematics">MATHEMATICS</label><br><br>
+                <input type = "text" id = "mathematics" name = "mathematics" value = "0"><br><br>
+                <label for = "Python">PYTHON</label><br><br>
+                <input type = "text" id = "python" name = "python" value = "0"><br><br>
+                <input type = "submit" value = "Submit"><br>
+            </form>
+        </head>
+    </html>
